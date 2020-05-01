@@ -1,0 +1,24 @@
+/* Drop Down Styling */
+
+#donate-list {
+    background-color: #8B6F48;
+    color: black;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 2px transparent #11A9EC;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.1s;
+}
+
+#donate-list:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+#donate-list:hover {
+    color: #11A9EC
+}
+
+select {
+    appearance: none;
+}
