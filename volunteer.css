@@ -1,0 +1,110 @@
+body{
+background-color: whitesmoke;
+width: 373px;
+}
+
+.volunteer-form{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+
+
+.forms{
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.forms input{
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    width: 250px;
+    display: block;
+    transition: all 0.3s;
+    background-color: whitesmoke;
+}
+
+.forms input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0 , 0, 0, 0.1);
+    border-bottom: 3px solid #11A9EC;
+}
+
+.forms textarea{
+    margin-top: 20px;
+    margin-left: 7px;
+    width: 225px;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid #11122b;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: color;
+    padding: 1.5rem 2rem;
+    transition: all 0.3s;
+    background-color: whitesmoke;
+}
+
+.forms textarea:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    border: 3px solid #11A9EC;
+}
+
+.forms input::-webkit-input-placeholder, .forms textarea::-webkit-input-placeholder {
+    color: #11122b;
+}
+
+.forms input:focus::-webkit-input-placeholder, .forms textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.forms label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color: #11A9EC;
+    visibility:hidden;
+    opacity:0;
+}
+
+.forms input:focus + label, .forms textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
+
+.btn{
+    background-color: #1ECD97;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #1ECD97;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    
+}
+
+.btn:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.center-btn-wrapper{
+    display: flex;
+    margin-bottom: 200px;
+    justify-content: center;
+}
