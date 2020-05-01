@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -116,3 +117,42 @@ body {
 strong {
     color: #119abc;
 }
+=======
+.page-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+#baby {
+    width: 200px;
+    margin: 23px 25px 20px 0px;
+    float: left;
+    border: 1px solid #1a1813;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.squares-wrapper #trash {
+    width: 100%;
+    margin: 10px;
+}
+
+h3 {
+    background-image: url(/images/trash.jpg);
+    background-repeat: no-repeat;
+    background-size:90%;
+    color: white;
+
+}
+
+
+
+>>>>>>> 031421bb6ee7d9553e3ed17bbb153d8411389ed0
