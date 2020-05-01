@@ -11,11 +11,6 @@ body {
     padding-bottom: 30px;
 }
 
-.header {
-}
-
-
-
 .nav-links {
     display: flex;
     flex-direction: column;
@@ -42,11 +37,6 @@ body {
 
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
-
-/* .hlink a{
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
-
-} */
 
 .logo {
     text-align: center;
@@ -121,4 +111,8 @@ body {
     justify-content: center;
     background-color: whitesmoke;
     font-size: 30px;
+}
+
+strong {
+    color: #119abc;
 }

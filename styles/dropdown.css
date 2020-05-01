@@ -4,6 +4,7 @@
     background-color: #8B6F48;
     color: black;
     font-size: 1.25em;
+    text-align: center;
     padding: 10px 25px;
     border: 2px transparent #11A9EC;
     border-radius: 10px;
@@ -20,5 +21,7 @@
 }
 
 select {
+    -moz-appearance: none;
+    text-decoration: none;
     appearance: none;
 }
