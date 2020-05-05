@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.rosa {
+    margin-bottom: 3em;
+}
+
+.rosa h2 {
+    color: #8B6F48;
+    padding-left: 5.9em;
+}
+
+.kids {
+    margin-bottom: 3em;
+}
+
+.kids h2 {
+    color: #8B6F48;
+    padding-left: 5.5em;
+}
+
+.heart {
+    margin-bottom: 3em;
+}
+
+.heart h2 {
+    color: #8B6F48;
+    padding-left: 6.9em;
+}
+ 
+.razor iframe {
+    margin-bottom: 3em;
+    margin-left: 7.1em;
+}
+
+.razor h2 {
+    color: #8B6F48;
+    padding-left: 6.8em;
+}
+
+.adela {
+    margin-bottom: 3em;
+}
+
+.adela h2 {
+    color: #8B6F48;
+    padding-left: 7em;
+}
+
+.ramona iframe {
+    width: 31.2em;
+    margin-bottom: 1em;
+    height: 40em;
+}
+
+.ramona h2 {
+    color: #8B6F48;
+    padding-left: 4.8em;
+}
