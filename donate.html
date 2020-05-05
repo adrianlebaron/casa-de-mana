@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Donación</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2d4e96b98f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/header-and-footer.css">
+    <link rel="stylesheet" href="/styles/form.css">
+    <link rel="stylesheet" href="/styles/bottons.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/dropdown.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/Images/2020-05-01 10_07_13-b4590c71-56cc-4225-b1ae-dd0c2c927d62 - Paint.png" alt="logo">
+                </a>
+            </div>
+            <div class="nav-links">
+                <div class="link">
+                    <a href="index.html">Sobre Nosotras</a>
+                </div>
+                <div class="link">
+                    <a href="donate.html">Donar</a>
+                </div>
+                <div class="link">
+                    <a href="projects_page.html">Proyectos</a>
+                </div>
+                <div class="link">
+                    <a href="volunteer.html">Oportunidades para Voluntario</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Donation Form -->
+    <h1>Formulario de Donación</h1>
+    <div class="form">
+        <legend>
+            <h2>Información del Usuario</h2>
+        </legend>
+        <div class="form-group">
+            <p>
+                <input type="fullName" name="name" placeholder="Introduzca su nombre">
+                <label for="fullName">Introduzca su nombre</label>
+                <input type="phone" name="phone" placeholder="Número de Teléfono">
+                <label for="phone">Número de Teléfono</label>
+                <input type="email" name="email" placeholder="Correo Electrónico">
+                <label for="email">Correo Electrónico</label>
+                <input type="street" name="street" placeholder="Calle">
+                <label for="street">Calle</label>
+                <input type="city" name="city" placeholder="Ciudad">
+                <label for="city">Ciudad</label>
+                <input type="state" name="state" placeholder="Estado">
+                <label for="state">Estado</label>
+                <input type="zipcode" name="zipcode" placeholder="Código Postal">
+                <label for="zipcode">Código Postal</label>
+            </p>
+        </div>
+        <legend>
+            <h2>Tipo de Donación o Ayuda</h2>
+        </legend>
+        <div class="form-group">
+            <select id="donate-list">
+                <option value="Money">Economica</option>
+                <option value="Clothes">Vestimenta</option>
+                <option value="Food">Alimentos</option>
+                <option value="Multiple">Múltiples</option>
+                <option value="Other">Otros</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>
+                <textarea type="message" id="message" placeholder="Mensaje que describe su donación"></textarea>
+                <label for="message">Mensaje que describe su donación</label>
+            </p>
+        </div>
+        <div class="center-btn-wrapper">
+            <button type="submit" class="btn" value="submit">Enviar</button>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-wrapper">
+        <div class="footer">
+            <div class="fnav-links">
+                <div class="link">
+                    <a href="index.html">Sobre Nosotras</a>
+                </div>
+                <div class="link">
+                    <a href="donate.html">Donar</a>
+                </div>
+                <div class="link">
+                    <a href="projects_page.html">Proyectos</a>
+                </div>
+                <div class="link">
+                    <a href="volunteer.html">Oportunidades para Voluntario</a>
+                </div>
+            </div>
+        </div>
+        <div class="social-links-wrapper">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/Casa-de-Mana-100880344780466/"><i class="fab fa-facebook-square"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

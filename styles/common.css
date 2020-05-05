@@ -1,0 +1,14 @@
+/* Common styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: ; */
+    margin-bottom: 42px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: #11A9EC;
+}

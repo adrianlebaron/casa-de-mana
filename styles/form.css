@@ -1,0 +1,92 @@
+/* Form Styling */
+
+.form {
+    display: grid;
+    justify-content: center;
+}
+
+.form > .form-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form input {
+    font-size: 1rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1rem 1rem;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    width: 87vw;
+    display: block;
+    transition: all 0.1s;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 .6rem .6rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #8B6F48;
+}
+
+.form textarea {
+    margin-top: 10px;
+    width: 87vw;
+    height: 100px;
+    border-radius: 6px;
+    border: 3px solid #11122b;
+    text-align: center;
+    font-size: 1rem;
+    font-family: inherit;
+    color: color;
+    padding: 1rem 1rem;
+    transition: all 0.1s;
+}
+
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0 .6rem .6rem rgba(0, 0, 0, 0.1);
+    border: 2px solid #8B6F48;
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    color: #11122b;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+    color: #11122b;
+}
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form input:focus::placeholder, .form textarea:focus::placeholder {
+    color: transparent;
+}
+
+.form label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    display: block;
+    transition: all 0.1s;
+    color: #8B6F48;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form input:focus + label, .form textarea:focus + label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(.1rem);
+    text-align: center;
+}
+
+input {
+    letter-spacing: 2px;
+    text-align: center;
+}

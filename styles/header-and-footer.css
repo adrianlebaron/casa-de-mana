@@ -1,65 +1,107 @@
 .header-wrapper {
-    margin-left: 5px;
-    margin-right: 5px;
+    background-color: white;
+    padding-bottom: 30px;
 }
-
 
 .nav-links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    height: 190px;
     align-items: center;
+    margin-top: 42px;
+    margin-bottom: 42px;
+
 }
 
 .nav-links a {
-    font-size: 8px;
-    padding: 5px 5px 5px 5px;
+    font-size: 20px;
     text-decoration: none;
-    border: 1px solid black;
-    color: #000000;
-    font-weight: 900;
-}
-
-.logo img {
-    width: 70px;
-}
-
-.fnav-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: black;
+    padding: 6px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border: 0.7px solid lightgray;
+    transition: 0.1s all;
 }
 
 .nav-links a:hover {
-    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+    color: #11a9ec;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 150px;
+}
+
+/* footer */
+.footer-wrapper {
+    height: 350px;
+    padding-bottom: 30px;
+}
+
+
+.fnav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.fnav-links a {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    border: 0.7px solid lightgray;
+    transition: 0.5s all;
 }
 
 .fnav-links a:hover {
-    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+    
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+.logo {
+    text-align: center;
+}
 
-.fnav-links a {
-    font-size: 8px;
-    padding: 5px 5px 5px 5px;
-    text-decoration: none;
-    border: 1px solid black;
-    color: #000000;
-    font-weight: 900;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.logo img {
+    height: 150px;
+}
+
+.social-links-wrapper {
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .social-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 30px;
-    margin-top: 10px;
 }
 
-.social-links a {
+.social-links i {
     color: black;
+    font-size: 30px;
 }
 
+/* delete this */
+.h1 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 30px;
+}
